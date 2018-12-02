@@ -3,7 +3,7 @@
 Copyright 2018 Brendan Kidwell  
 Licensed under the terms of GPL v3.
 
-See https://github.com/bkidwell/youtube-quick-loader
+Home page: https://github.com/bkidwell/youtube-quick-loader
 
 YouTube Quick Loader is a single-file HTML+JavaScript program you can use to quickly start playing YouTube videos from URLs you find in your RSS feeds, or shared from your friends via forums or social media.
 
@@ -13,6 +13,8 @@ Normally, when you open a YouTube video URL in your desktop browser, there are s
 * The video playback widget does not have an option to fill the browser WINDOW, except in full screen mode.
 
 YouTube Quick Loader solves these two problems by loading your reqeusted video in a blank page as an embedded object (IFRAME) which is setup to use all available space in the window.
+
+Additionally, if the URL you want to play has a start time parameter, YouTube Quick Loader will include that in the embedded video's URL.
 
 ## Installing in Your Desktop Browser
 
