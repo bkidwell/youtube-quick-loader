@@ -1,0 +1,47 @@
+<html>
+<head>
+<!---
+
+Youtube Quick Loader
+
+Copyright 2018 Brendan Kidwell
+Licensed under the terms of GPL v3.
+
+See https://github.com/bkidwell/youtube-quick-loader
+
+-->
+    <title></title>
+    <style type="text/css">
+        #searchform {
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+    <div id="searchform"><form>
+        <p>
+            Enter a YouTube Video URL to watch in an Iframe:<br />
+            <input type="text" name="q" />
+            <input type="submit" value="Go" />
+        </p>
+
+        <p>
+            To add this search to your browser, follow your browser's
+            directions to add a search engine with these parameters:
+        </p>
+        <dl>
+            <dt>Title</dt><dd>YouTube Quick Loader (Iframe mode)</dd>
+            <dt>URL</dt><dd><span id="searchurl"></span>?%s</dd>
+        </dl>
+    </form></div>
+
+    <!-- LOAD SCRIPTS -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+
+    <!-- RUN THE PROGRAM -->
+    <script type="text/javascript">
+        main(YTQ_IFRAME);
+    </script>
+</body>
+</html>
