@@ -5,7 +5,7 @@ Licensed under the terms of GPL v3.
 
 Home page: https://github.com/bkidwell/youtube-quick-loader
 
-YouTube Quick Loader is a single-file HTML+JavaScript program you can use to quickly start playing YouTube videos from URLs you find in your RSS feeds, or shared from your friends via forums or social media.
+YouTube Quick Loader is a small HTML+JavaScript program you can use to quickly start playing YouTube videos from URLs you find in your RSS feeds, or shared from your friends via forums or social media.
 
 Normally, when you open a YouTube video URL in your desktop browser, there are some UX annoying problems, including:
 
